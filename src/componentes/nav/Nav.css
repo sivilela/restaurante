@@ -1,0 +1,19 @@
+nav {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+nav ul a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+nav ul a:hover {
+  color: yellow;
+}/*# sourceMappingURL=Nav.css.map */

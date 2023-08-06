@@ -1,0 +1,56 @@
+.newslatter {
+  width: 25%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.newslatter .icone {
+  position: absolute;
+  right: 12%;
+  width: 8%;
+  top: 2px;
+  transform: rotate(35deg);
+}
+.newslatter label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.newslatter input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #d2cfcf;
+  padding-left: 20px;
+  color: #a4007b;
+  font-weight: bold;
+}
+.newslatter input::-moz-placeholder {
+  color: black;
+  font-weight: bold;
+}
+.newslatter input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.newslatter button {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: #02a4ac;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.newslatter button:hover {
+  background-color: #00585c;
+  color: #ffea00;
+}/*# sourceMappingURL=BarraDePesquisa.css.map */

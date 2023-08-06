@@ -1,0 +1,20 @@
+.icones {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.icones h1 {
+  font-size: 1rem;
+  text-align: center;
+  color: #555252;
+}
+.icones .imagem {
+  width: 45%;
+}
+.icones .imagem img {
+  width: 20%;
+  margin: 0 10px;
+}/*# sourceMappingURL=SocialMedia.css.map */

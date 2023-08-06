@@ -1,0 +1,21 @@
+nav{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    ul{
+      display: flex;
+      gap: 50px;
+      list-style: none;
+
+        a{
+          color: #ffffff;
+          font-size: 1.5rem;
+
+            &:hover{
+              color: yellow;
+            }
+        }
+    }
+}
